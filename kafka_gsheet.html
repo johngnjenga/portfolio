@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-YMWDE0VTD3");
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000" />
+  <meta name="description"
+    content="John Njenga | Portfolio, Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
+  <meta name="keywords"
+    content="vinod jangid,vinod jangid portfolio,Vinod Jangid Portfolio,vinodjangid,vinod jangid site,Vinod Jangid Site,vinod jangid me,vinod jangid web,vinod jangid github,vinodjangid site,vinodjangid uiverse,uiverse,vinod jangid uiverse,vinod jangid frontend developer,frontend developer,vinod jangid jaipur,vinod jaipur" />
+  <meta name="author" content="Vinod Jangid" />
+  <meta property="og:image" content="https://www.vinodjangid.site/src/png/Preview-card-min.png" />
+  <meta property="og:title" content="Vinod Jangid | Portfolio" />
+  <meta property="og:description"
+    content="Hi! My name is John. I'm a Data Engineeer. I value simple content structure, clean design patterns, and thoughtful interactions." />
+
+  <meta property="og:url" content="https://vinodjangid.site" />
+  <meta property="og:site_name" content="Vinod Jangid Portfolio" />
+
+  <meta name="twitter:image:src" content="https://www.vinodjangid.site/src/png/Preview-card-min.png" />
+  <meta name="twitter:site" content="@Portfolio" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Vinod Jangid | Portfolio" />
+  <meta name="twitter:description"
+  content="Hi! My name is Vinod. I'm a web developer and digital visual artist. Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
+  <title>Vinod Jangid | Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
+  <!-- aos cdn -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- google fonts-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+
+<body class="body">
+  <audio loop="" id="audioPlayer" style="display: none">
+    <source src="src/mp3/preloader.mp3" type="audio/mp3" />
+  </audio>
+  <div id="preloader"></div>
+  <noscript>Allow Javascript</noscript>
+
+  <header>
+    <div class="cursor-inner" id="cursor-inner"></div>
+    <div class="cursor-outer" id="cursor-outer"></div>
+
+    <div class="navbar" id="navbar">
+      <div class="hey">Hey!</div>
+      <div class="logo" tabindex="0" aria-label="vinod jangid logo">
+        <div class="logo-top">
+          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar"/>
+        </div>
+      </div>
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home" tabindex="0" aria-label="Home menu button">
+              &#60;/Home&#62;
+            </a>
+          </li>
+
+          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+            <a href="#about" aria-label="about menu button">
+              &#60;/AboutMe&#62;
+            </a>
+          </li>
+
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#skills" aria-label="skills menu button">
+              &#60;/Skills&#62;
+            </a>
+          </li>
+
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#projects" aria-label="projects menu button">
+              &#60;/Projects&#62;
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- navbar tabs ends -->
+    </div>
+  </header>
+  <!-- header ends here -->
+
+  <main>
+    <!-- hamburger -->
+    <div class="hamburger" id="hamburger" data-aos="fade">
+      <div class="hamburgerbase">
+        <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span>
+        </button>
+      </div>
+    </div>
+    <!-- hamburger -->
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
+          <a href="#home" tabindex="0" aria-label="Home menu button">
+            &#60;/Home&#62;
+          </a>
+        </li>
+
+        <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
+          <a href="#about" tabindex="0" aria-label="about menu button">
+            &#60;/AboutMe&#62;
+          </a>
+        </li>
+        <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
+          <a href="#skills" tabindex="0" aria-label="skills menu button">
+            &#60;/Skills&#62;
+          </a>
+        </li>
+        <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+          <a href="#projects" tabindex="0" aria-label="projects menu button">
+            &#60;/Projects&#62;
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- mobile toggle menu ends -->
+
+
+
+
+
+    <!-- landing page ends here -->
+    <section class="about-section-container" id="about" data-aos="fade-up">
+      <div class="about-section">
+        <div class="section-heading">
+          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+            Unlocking Real-Time Data Insights: Integrating Kafka, MySQL, Google Sheets,Python and Apache Superset          
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="info-dp-section">
+          <div class="about-info">
+            <p tabindex="0">
+              In today’s data-driven world, the ability to efficiently process and analyze real-time data is crucial for many applications. Kafka is an open-source distributed event streaming platform. Kafka is used to build real-time streaming data pipelines and applications that adapt to the data streams.
+              I will explore how to integrate Kafka, MySQL, and Google Sheets in Python and finally in Superset to create a robust data pipeline for real-time data processing and analysis.
+            </p>
+            <br />
+            <br />
+            <br />
+    
+            <p tabindex="0">
+              <b>1. SETTING UP APACHE KAFKA</b>
+            <br/>
+            <br/>
+            A. brew install kafka
+            </p>
+
+            <br />
+            <br />
+            <br />
+             <img src="src/kafka_realtime/kafka_in stall.png" alt="comickaze website preview image" />
+             <br />
+             <br />
+             <br />
+             <p>
+
+              If you already have kafka in your local like me, you should see the message above. If not, kafka will be installed.
+              <br />
+              <br />
+              B. brew service start zookeeper
+              <br />
+              <br />
+              This command will start ZooKeeper as a background service on your system. If ZooKeeper is installed and configured correctly via Homebrew, this command should initiate the ZooKeeper service, allowing it to run in the background and serve as a coordination service for Kafka. To confirm whether the service is up, run brew services list.
+              <br />
+              <br />
+              C. brew service start kafka
+              <br />
+              <br />
+              To confirm whether the services(Kafka and zookeeper) are up, run brew services list.
+             </p>
+             <br />
+             <br />
+             <img src="src/kafka_realtime/kafka_start.png" alt="comickaze website preview image" />
+             <br />
+              <br />
+              <p>
+                D. create a topic
+              </p>
+              <br />
+              <br />
+              <p>/usr/local/opt/kafka/bin/kafka-topics - create - bootstrap-server localhost:9092 - topic test
+              </p>
+              
+
+              <br />
+              <br />
+
+              <br />
+              <br />
+
+
+              <br />
+              <br />
+
+              <br />
+              <br />
+
+              <br />
+              <br />
+             
+
+
+
+             <img src="src/webp/kenya_sup.webp" alt="comickaze website preview image" />
+          </div>
+          
+        </div>
+
+
+        <br/>
+        <br/><br/><br/><br/><br/>
+        <br/>
+        <br/>
+          <div class="about-info">
+            <p>              In today’s data-driven world, the ability to efficiently process and analyze real-time data is crucial for many applications. Kafka is an open-source distributed event streaming platform. Kafka is used to build real-time streaming data pipelines and applications that adapt to the data streams.
+            </p>
+          </div>
+        
+
+      </div>
+    </section>
+    <!-- about section ends  -->
+
+
+
+
+
+
+    <div class="footer-avatar-container">
+      <img src="src/png/footer-avatar-vinod.png" alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar"/>
+      <div class="footer-avatar-face">
+        <div class="footer-avatar-eye footer-left-eye">
+          <div class="footer-pupil"></div>
+        </div>
+        <div class="footer-avatar-eye footer-right-eye">
+          <div class="footer-pupil"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <article>
+        Design & Built by John Njenga
+      </article>
+    </div>
+  </div>
+</div>
+</footer>
+<!-- footer ends here -->
+
+<script src="main.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+<script>
+function openURL() {
+  var url = "src/pdf/JOHN_NJENGA_Rs.pdf";
+
+  window.open(url, "_blank");
+}
+</script>
+
+<script>
+const cursorInner = document.getElementById("cursor-inner");
+const cursorOuter = document.getElementById("cursor-outer");
+const links = document.querySelectorAll("a,label,button");
+
+document.addEventListener("mousemove", function (e) {
+  const posX = e.clientX;
+  const posY = e.clientY;
+
+  cursorInner.style.left = `${posX}px`;
+  cursorInner.style.top = `${posY}px`;
+
+  // cursorOuter.style.left = `${posX}px`;
+  // cursorOuter.style.top = `${posY}px`;
+
+  cursorOuter.animate(
+    {
+      left: `${posX}px`,
+      top: `${posY}px`,
+    },
+    { duration: 500, fill: "forwards" }
+  );
+
+  links.forEach((link) => {
+    link.addEventListener("mouseenter", () => {
+      cursorInner.classList.add("hover");
+      cursorOuter.classList.add("hover");
+    });
+    link.addEventListener("mouseleave", () => {
+      cursorInner.classList.remove("hover");
+      cursorOuter.classList.remove("hover");
+    });
+  });
+});
+</script>
+</body>
+
+</html>
